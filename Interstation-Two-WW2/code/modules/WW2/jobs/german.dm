@@ -26,7 +26,7 @@
 	H.equip_to_slot_or_del(new /obj/item/ammo_magazine/luger(H), slot_r_hand)
 	H.equip_to_slot_or_del(new /obj/item/device/binoculars(H), slot_l_hand)
 	world << "<b>[H.client.prefs.german_name] is the [title] of the German forces!</b>"
-	H << "<span class = 'notice'>You are the <b>[title]</b>, the highest ranking officer present. Your job is the organize the German forces and lead them to victory, while working alongside the <b>SS-Untersharffuhrer</b>.</span>"
+	H << "<span class = 'notice'>You are the <b>[title]</b>, the highest ranking officer present. Your job is the organize the German forces and lead them to victory, while working alongside the <b>SS-Untersharffuhrer</b>. You also have the ability to accquire cords, go to https://pastebin.com/raw/JZHq39cv to learn how to do so.</span>"
 	return 1
 
 /datum/job/german/commander/update_character(var/mob/living/carbon/human/H)
@@ -51,7 +51,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*/datum/job/german/pilot
-	title = "Flugzeugführer"
+	title = "FlugzeugfÃ¼hrer"
 	flag = GEROFF
 	department_flag = MEDSCI
 	faction = "Station"
@@ -523,7 +523,7 @@ var/first_fallschirm = 1
 	H.equip_to_slot_or_del(new /obj/item/weapon/wrench(H), slot_l_hand)
 	H.equip_to_slot_or_del(new /obj/item/device/binoculars(H), slot_r_hand)
 	H.equip_to_slot_or_del(new /obj/item/weapon/shovel/spade/russia(H), slot_belt)
-	H << "<span class = 'notice'>You are the <b>[title]</b>, an artillery officer. Your job is to bomb the shit out of the enemy.</span>"
+	H << "<span class = 'notice'>You are the <b>[title]</b>, an artillery officer. Your job is to bomb the shit out of the enemy. You also have the ability to accquire cords, go to https://pastebin.com/raw/JZHq39cv to learn how to do so. </span>"
 	return 1
 
 /datum/job/german/artyman/update_character(var/mob/living/carbon/human/H)
@@ -569,7 +569,7 @@ var/first_fallschirm = 1
 	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/boltaction/kar98k(H), slot_back)
 	H.equip_to_slot_or_del(new /obj/item/device/binoculars(H), slot_l_hand)
 	H.equip_to_slot_or_del(new /obj/item/weapon/shovel/spade/russia(H), slot_belt)
-	H << "<span class = 'notice'>You are the <b>[title]</b>, a scout. Your job is to assist the <b>Kanonier</b> by getting coordinates.</span>"
+	H << "<span class = 'notice'>You are the <b>[title]</b>, a scout. Your job is to assist the <b>Kanonier</b> by getting coordinates. Go to https://pastebin.com/raw/JZHq39cv to learn how to do so.</span>"
 	return 1
 
 /datum/job/german/scout/update_character(var/mob/living/carbon/human/H)
@@ -658,7 +658,7 @@ var/first_fallschirm = 1
 	H.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/tactical/sshelm(H), slot_head)
 	H.equip_to_slot_or_del(new /obj/item/weapon/gun/projectile/automatic/akm(H), slot_back)
 	H.equip_to_slot_or_del(new /obj/item/device/binoculars(H), slot_l_hand)
-	H << "<span class = 'notice'>You are the <b>[title]</b>, a squad leader for an elite S.S. unit. Your job is to work alongside normal <b>Gruppenfuhrer</b>s and the <b>Feldwebel</b>, while setting your own goals.</span>"
+	H << "<span class = 'notice'>You are the <b>[title]</b>, a squad leader for an elite S.S. unit. Your job is to work alongside normal <b>Gruppenfuhrer</b>s and the <b>Feldwebel</b>, while setting your own goals.  You also have the ability to accquire cords, go to https://pastebin.com/raw/JZHq39cv to learn how to do so.</span>"
 	return 1
 
 /datum/job/german/squad_leader_ss/update_character(var/mob/living/carbon/human/H)
